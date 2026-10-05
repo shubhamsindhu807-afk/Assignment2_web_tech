@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 3 — Three Layouts, One Markup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+  <header class="site-head">
+    <div><p class="eyebrow">Task 3</p><h1>Field Notes</h1><p>One set of articles, three CSS Grid presentations.</p></div>
+    <nav class="switcher" aria-label="Layout modes"><a href="grid.html">Grid</a><a href="list.html">List</a><a href="magazine.html">Magazine</a></nav>
+  </header>
+
+  <!-- Change only the class on .articles: grid-mode, list-mode, or magazine-mode. The item markup stays identical. -->
+  <section class="articles grid-mode" id="grid" aria-label="Article collection">
+    <article class="item"><div class="thumb t1">01</div><div class="item-content"><div class="meta"><span>Design</span><time datetime="2026-09-30">Sep 30</time></div><h2>Designing for quiet interfaces</h2><p>Small visual decisions can make an interface feel calmer without removing useful information.</p></div></article>
+    <article class="item"><div class="thumb t2">02</div><div class="item-content"><div class="meta"><span>Web</span><time datetime="2026-09-27">Sep 27</time></div><h2>Fluid layouts without breakpoints</h2><p>Intrinsic sizing, flexible tracks and wrapping can carry a layout across many screen sizes.</p></div></article>
+    <article class="item"><div class="thumb t3">03</div><div class="item-content"><div class="meta"><span>Research</span><time datetime="2026-09-22">Sep 22</time></div><h2>What makes a useful dashboard?</h2><p>A useful dashboard gives priority to decisions, not decoration.</p></div></article>
+    <article class="item"><div class="thumb t4">04</div><div class="item-content"><div class="meta"><span>Culture</span><time datetime="2026-09-18">Sep 18</time></div><h2>Notes from a slower morning</h2><p>Changing the pace of a routine can reveal patterns that are invisible when every minute is optimized.</p></div></article>
+    <article class="item"><div class="thumb t5">05</div><div class="item-content"><div class="meta"><span>Systems</span><time datetime="2026-09-14">Sep 14</time></div><h2>The anatomy of a good component</h2><p>Reusable components need sensible defaults, flexible content areas and clear boundaries.</p></div></article>
+    <article class="item"><div class="thumb t6">06</div><div class="item-content"><div class="meta"><span>Ideas</span><time datetime="2026-09-10">Sep 10</time></div><h2>When constraints improve creativity</h2><p>Limits can turn a vague problem into a sequence of concrete design decisions.</p></div></article>
+    <article class="item"><div class="thumb t7">07</div><div class="item-content"><div class="meta"><span>Product</span><time datetime="2026-09-06">Sep 06</time></div><h2>Building for content that changes</h2><p>Good layouts anticipate longer titles, shorter labels and unexpected amounts of text.</p></div></article>
+    <article class="item"><div class="thumb t8">08</div><div class="item-content"><div class="meta"><span>Web</span><time datetime="2026-09-01">Sep 01</time></div><h2>Why intrinsic sizing matters</h2><p>Letting the browser calculate useful dimensions often produces more robust layouts than manual dimensions.</p></div></article>
+    <article class="item"><div class="thumb t9">09</div><div class="item-content"><div class="meta"><span>Research</span><time datetime="2026-08-28">Aug 28</time></div><h2>Reading patterns, not clicks</h2><p>Numbers are most useful when they help explain a user's context.</p></div></article>
+    <article class="item"><div class="thumb t10">10</div><div class="item-content"><div class="meta"><span>Design</span><time datetime="2026-08-24">Aug 24</time></div><h2>A practical visual hierarchy</h2><p>Scale, spacing and contrast can work together to make the next action obvious.</p></div></article>
+    <article class="item"><div class="thumb t11">11</div><div class="item-content"><div class="meta"><span>Systems</span><time datetime="2026-08-20">Aug 20</time></div><h2>Making complexity readable</h2><p>Complex systems become easier to understand when related information shares a visual structure.</p></div></article>
+    <article class="item"><div class="thumb t12">12</div><div class="item-content"><div class="meta"><span>Ideas</span><time datetime="2026-08-16">Aug 16</time></div><h2>The value of a small prototype</h2><p>A prototype can expose layout problems before they become expensive implementation problems.</p></div></article>
+  </section>
+</main>
+</body>
+</html>

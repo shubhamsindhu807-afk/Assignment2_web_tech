@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 2 — Flexbox Component Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#">Northstar</a>
+  <nav class="nav-links" aria-label="Main navigation">
+    <a href="#components">Products</a><a href="#components">Solutions</a><a href="#components">Resources</a><a href="#components">About</a>
+  </nav>
+  <div class="nav-actions"><a class="button secondary" href="#pricing">Log in</a><a class="button primary" href="#pricing">Start free</a></div>
+</header>
+<main id="components" class="library">
+  <section class="hero"><p class="eyebrow">Task 2</p><h1>Flexbox component library</h1><p>Five reusable components share the same typography, spacing and visual language.</p></section>
+
+  <section class="component"><h2>1. Navigation bar</h2><div class="demo-nav"><strong>Studio</strong><div class="demo-links"><a href="#">Overview</a><a href="#">Analytics</a><a href="#">Integrations</a><a href="#">Documentation</a></div><div class="demo-actions"><span class="button secondary">Sign in</span><span class="button primary">Create account</span></div></div></section>
+
+  <section class="component"><h2>2. Equal-height cards</h2><div class="cards">
+    <article class="card"><span class="tag">Starter</span><h3>Launch a simple project</h3><p>Everything needed to publish a small project quickly, with a clear setup and practical defaults.</p><a class="button primary" href="#">Choose starter</a></article>
+    <article class="card"><span class="tag">Growth</span><h3>Coordinate a growing team</h3><p>Shared spaces, reusable workflows and reporting tools for teams with more moving parts and longer descriptions.</p><a class="button primary" href="#">Choose growth</a></article>
+    <article class="card"><span class="tag">Scale</span><h3>Operate at larger scale</h3><p>Flexible controls and support for complex projects that need room for additional processes.</p><a class="button primary" href="#">Choose scale</a></article>
+  </div></section>
+
+  <section class="component"><h2>3. Pagination</h2><div class="pagination"><button class="page-arrow" aria-label="Previous">←</button><div class="pages"><a href="#">1</a><a class="current" href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a></div><button class="page-arrow" aria-label="Next">→</button><span class="results">Showing 11–20 of 84 results</span></div></section>
+
+  <section class="component"><h2>4. Comment</h2><article class="comment"><div class="avatar" aria-hidden="true">AM</div><div class="comment-body"><div class="comment-meta"><strong>Amina M.</strong><time datetime="2026-10-05">Today</time></div><p>The new layout is much easier to scan. The spacing also stays comfortable when the message becomes longer than the original design expected.</p></div></article></section>
+
+  <section class="component" id="pricing"><h2>5. Pricing table</h2><div class="pricing"><article class="plan"><h3>Basic</h3><p class="price">$9 <small>/ month</small></p><p>For personal projects and experiments.</p><ul><li>3 projects</li><li>Basic analytics</li><li>Email support</li></ul><a class="button secondary" href="#">Select Basic</a></article><article class="plan featured"><span class="recommended">Recommended</span><h3>Pro</h3><p class="price">$24 <small>/ month</small></p><p>For teams that need more collaboration and control.</p><ul><li>Unlimited projects</li><li>Advanced analytics</li><li>Priority support</li></ul><a class="button primary" href="#">Select Pro</a></article><article class="plan"><h3>Team</h3><p class="price">$49 <small>/ month</small></p><p>For organizations with broader workflows.</p><ul><li>Team permissions</li><li>Custom reports</li><li>Dedicated support</li></ul><a class="button secondary" href="#">Select Team</a></article></div></section>
+</main>
+</body>
+</html>
